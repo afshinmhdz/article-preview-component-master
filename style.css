@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+:root {
+  --veryDarkGrayishBlue: hsl(217, 19%, 35%);
+  --desaturatedDarkBlue: hsl(214, 17%, 51%);
+  --grayishBlue: hsl(212, 23%, 69%);
+  --lightGrayishBlue: hsl(210, 46%, 95%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Manrope";
+  font-size: 13px;
+  background-color: var(--lightGrayishBlue);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  height: 100vh;
+}
+.mainImg {
+  width: 300px;
+  height: 260px;
+  border-radius: 10px 0 0 10px;
+}
+.profile {
+  height: 32px;
+  width: 32px;
+}
+.content{
+    background-color: #FFF;
+    width: 400px;
+  height: 260px;
+  padding: 30px;
+  margin-top: -4px;
+  margin-left: -55px;
+  border-radius:  0 10px 10px 0;
+}
+.title{
+    color:var(--veryDarkGrayishBlue);
+    font-weight: 700;
+}
+.desc{
+    color: var(--desaturatedDarkBlue);
+    font-weight: 500;
+    font-size: 12.7px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.name{
+    color: var(--veryDarkGrayishBlue);
+    display: flex;
+    flex-direction: column;
+    margin-left: -80px;
+    margin-top: 2px;
+    align-items: baseline;
+    font-weight: 700;
+}
+.name .year{
+    color: var(--desaturatedDarkBlue);
+    font-weight: 500;
+}
+.profile{
+    border-radius: 100%;
+}
+.footer{
+    display: flex;
+    margin-top: 25px;
+    font-size: 8px;
+    justify-content: space-between;
+}
+.flash{
+    height: 32px;
+    width: 32px;
+    background-color: var(--lightGrayishBlue);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.flash .arrow{
+    height: 15px;
+    width: 15px;
+}
